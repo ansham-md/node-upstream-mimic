@@ -1,0 +1,10 @@
+spring:
+  zipkin:
+    base-url: http://host.docker.internal:9411
+server:
+  port: 8090
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
